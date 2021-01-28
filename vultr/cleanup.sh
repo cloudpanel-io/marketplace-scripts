@@ -19,3 +19,6 @@
 > /var/log/user.log
 
 apt-get dist-upgrade -y
+apt autoremove
+apt clean
+history -c

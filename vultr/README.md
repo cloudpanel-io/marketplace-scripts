@@ -1,5 +1,5 @@
 1. Run clean-up script:
 
 ```
-curl -sSL https://github.com/cloudpanel-io/marketplace-scripts/blob/master/vultr/cleanup.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/cleanup.sh | sudo bash
 ```
