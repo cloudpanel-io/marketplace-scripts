@@ -1,7 +1,7 @@
 1. Run clean-up script:
 
 ```
-curl -sSL https://raw.githubusercontent.com/cloudpanel-io/do-marketplace/master/cleanup.sh | sudo bash
+curl -sSL https://github.com/cloudpanel-io/marketplace-scripts/blob/master/do/cleanup.sh | sudo bash
 ```
 
 2. Clone DO marketplace partners repo:
