@@ -18,7 +18,7 @@
 > /var/log/php7.4-fpm.log
 > /var/log/user.log
 
-apt-get dist-upgrade -y
-apt autoremove
+apt -y dist-upgrade
+apt -y autoremove
 apt clean
 history -c
