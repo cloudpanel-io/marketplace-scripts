@@ -17,6 +17,7 @@
 > /var/log/php7.3-fpm.log
 > /var/log/php7.4-fpm.log
 > /var/log/user.log
+> /root/.ssh/authorized_keys
 
 apt -y dist-upgrade
 apt -y autoremove
