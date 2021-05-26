@@ -15,5 +15,5 @@ systemctl disable ufw
 2. Run clean-up script:
 
 ```
-curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/cleanup.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/run.sh | sudo bash
 ```
