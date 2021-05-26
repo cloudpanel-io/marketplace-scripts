@@ -10,9 +10,7 @@ apt-get install -y /tmp/cloud-init_debian_latest.deb
 2. Uninstall ufw
 
 ufw reset
-apt-get --purge remove ufw
-apt clean
-apt autoremove
+systemctl disable ufw
 
 2. Run clean-up script:
 

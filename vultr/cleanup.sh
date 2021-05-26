@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Empty files
+rm -rf /tmp/*
 > /var/log/cloud-init.log
 > /var/log/alternatives.log
 > /var/log/auth.log
@@ -18,6 +19,7 @@
 > /var/log/php7.4-fpm.log
 > /var/log/user.log
 > /root/.ssh/authorized_keys
+cloud-init clean
 
 apt -y dist-upgrade
 apt -y autoremove
