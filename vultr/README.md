@@ -12,6 +12,14 @@ apt-get install -y /tmp/cloud-init_debian_latest.deb
 ufw reset
 systemctl disable ufw
 
+3. Install CloudPanel
+
+curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=vultr bash
+
+4. Restart MySQL
+
+/etc/init.d/mysql restart
+
 2. Run clean-up script:
 
 ```
