@@ -20,8 +20,6 @@ curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=vultr ba
 
 /etc/init.d/mysql restart
 
-2. Run clean-up script:
+2. Run script:
 
-```
 curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/run.sh | sudo bash
-```
