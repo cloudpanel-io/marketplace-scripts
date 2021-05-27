@@ -18,6 +18,7 @@ rm -rf /tmp/*
 > /var/log/php7.4-fpm.log
 > /var/log/user.log
 > /root/.ssh/authorized_keys
+rm -f /etc/cloud/cloud.cfg.d/100-clp.cfg
 sed -i 's/^CLOUDPANEL_URL=.*/CLOUDPANEL_URL="https:\/\/$(curl -s http:\/\/169.254.169.254\/v1\/interfaces\/0\/ipv4\/address):8443"/' /etc/update-motd.d/10-cloudpanel
 cloud-init clean
 
