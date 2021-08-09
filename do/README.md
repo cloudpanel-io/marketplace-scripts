@@ -13,13 +13,13 @@ git clone https://github.com/digitalocean/marketplace-partners.git /root/marketp
 3. Execute script: img_check.sh:
 
 ```
-/root/marketplace-partners/scripts/img_check.sh
+/root/marketplace-partners/scripts/99-img-check.sh
 ```
 
 4. Execute script: cleanup.sh:
 
 ```
-/root/marketplace-partners/scripts/cleanup.sh
+/root/marketplace-partners/scripts/90-cleanup.sh
 ```
 
 5. Delete marketplace directory
