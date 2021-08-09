@@ -3,9 +3,10 @@
 https://www.vultr.com/docs/vultr-marketplace-requirements#Install_cloud_init
 
 cd /tmp
-wget https://ewr1.vultrobjects.com/cloud_init_beta/cloud-init_debian_latest.deb
+wget https://ewr1.vultrobjects.com/cloud_init_beta/cloud-init_debian10_latest.deb
 apt-get update -y
-apt-get install -y /tmp/cloud-init_debian_latest.deb
+apt_safe /tmp/cloud-init_debian10_latest.deb
+apt-get install -y /tmp/cloud-init_debian10_latest.deb
 
 2. Uninstall ufw
 
