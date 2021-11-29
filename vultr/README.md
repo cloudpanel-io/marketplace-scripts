@@ -13,14 +13,18 @@ apt-get install -y /tmp/cloud-init_debian10_latest.deb
 ufw reset
 systemctl disable ufw
 
-3. Install CloudPanel
+3. Remove MySQL
+
+apt -y --purge remove mysql*
+
+4. Install CloudPanel
 
 curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=vultr bash
 
-4. Restart MySQL
+5. Restart MySQL
 
 /etc/init.d/mysql restart
 
-2. Run script:
+6. Run script:
 
 curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/run.sh | sudo bash
