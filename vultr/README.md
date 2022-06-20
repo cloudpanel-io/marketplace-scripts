@@ -1,12 +1,15 @@
-1. Install cloud-init (currently damaged)
+1. Install cloud-init --> Only for Debian
 
 https://www.vultr.com/docs/vultr-marketplace-requirements#Install_cloud_init
 
 cd /tmp
-wget https://ewr1.vultrobjects.com/cloud_init_beta/cloud-init_debian10_latest.deb
+
+Debian:
+  wget https://ewr1.vultrobjects.com/cloud_init_beta/cloud-init_debian_latest.deb
+
 apt-get update -y
-apt_safe /tmp/cloud-init_debian10_latest.deb
-apt-get install -y /tmp/cloud-init_debian10_latest.deb
+apt_safe /tmp/cloud-init_debian_latest.deb
+apt-get install -y /tmp/cloud-init_debian_latest.deb
 
 2. Uninstall ufw
 
@@ -19,7 +22,7 @@ apt -y --purge remove mysql*
 
 4. Install CloudPanel
 
-curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=vultr bash
+curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr bash
 
 5. Restart MySQL
 
