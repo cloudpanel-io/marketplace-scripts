@@ -16,6 +16,8 @@
 > /var/log/php7.2-fpm.log
 > /var/log/php7.3-fpm.log
 > /var/log/php7.4-fpm.log
+> /var/log/php8.0-fpm.log
+> /var/log/php8.1-fpm.log
 > /var/log/user.log
 > /root/.ssh/authorized_keys
 
