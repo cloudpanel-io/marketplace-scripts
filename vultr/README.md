@@ -12,6 +12,10 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr ba
 
 curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/run.sh | sudo bash
 
+4. Clean System
+
+apt clean && history -c
+
 
 Debian 11:
 
@@ -38,3 +42,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr ba
 5. Run script:
 
 curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/master/vultr/run.sh | sudo bash
+
+7. Clean System
+
+apt clean && history -c
