@@ -28,8 +28,8 @@ apt-get install -y /tmp/cloud-init_debian_latest.deb
 
 2. Remove MySQL
 
-apt -y --purge remove mysql* && 
-apt autoremove
+apt -y --purge remove mysql*
+apt -y autoremove
 
 3. Install CloudPanel
 
