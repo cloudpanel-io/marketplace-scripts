@@ -26,5 +26,6 @@ cloud-init clean
 
 apt -y dist-upgrade
 apt -y autoremove
+dd if=/dev/zero of=/zerofile bs=4096 || rm /zerofile
 apt clean
 history -c
