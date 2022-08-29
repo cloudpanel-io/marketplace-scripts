@@ -19,6 +19,12 @@
 > /var/log/php8.0-fpm.log
 > /var/log/php8.1-fpm.log
 > /var/log/user.log
+> /var/log/auth.log
+> /var/log/cloud-init.log
+> /var/log/unattended-upgrades
+> /var/log/kern.log
+> /var/log/ubuntu-advantage-timer.log
+> /var/log/ufw.log
 > /root/.ssh/authorized_keys
 
 apt-get dist-upgrade -y
