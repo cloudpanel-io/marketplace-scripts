@@ -25,5 +25,5 @@ git clone https://github.com/digitalocean/marketplace-partners.git /tmp/marketpl
 5. Delete marketplace directory
 
 ```
-rm -rf /tmp/
+rm -rf /tmp/*
 ```
