@@ -22,7 +22,6 @@
 > /var/log/auth.log
 > /var/log/cloud-init.log
 > /var/log/unattended-upgrades/unattended-upgrades-shutdown.log
-> /var/log/unattended-upgrades
 > /var/log/kern.log
 > /var/log/ubuntu-advantage-timer.log
 > /var/log/ufw.log
