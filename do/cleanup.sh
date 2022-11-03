@@ -30,5 +30,6 @@
 > /var/log/cloud-init.log
 > /root/.ssh/authorized_keys
 
+apt-get purge droplet-agent
 apt-get dist-upgrade -y
 passwd --lock root
