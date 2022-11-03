@@ -25,6 +25,7 @@
 > /var/log/kern.log
 > /var/log/ubuntu-advantage-timer.log
 > /var/log/ufw.log
+> /var/log/cloud-init.log
 > /root/.ssh/authorized_keys
 
 apt-get dist-upgrade -y
