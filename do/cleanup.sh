@@ -28,5 +28,5 @@
 > /var/log/cloud-init.log
 > /root/.ssh/authorized_keys
 
-apt-get purge droplet-agent
+apt-get -y purge droplet-agent
 passwd --lock root
