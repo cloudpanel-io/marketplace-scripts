@@ -1,4 +1,4 @@
-Ubuntu 22.04:
+Ubuntu 24.04:
 
 1. Install CloudPanel
 
@@ -17,7 +17,7 @@ curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/ma
 apt clean && history -c
 
 
-Debian 11:
+Debian 12:
 
 1. Remove MySQL
 
