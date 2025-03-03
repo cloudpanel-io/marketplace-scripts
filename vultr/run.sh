@@ -18,6 +18,9 @@ rm -rf /tmp/*
 > /var/log/php7.4-fpm.log
 > /var/log/php8.0-fpm.log
 > /var/log/php8.1-fpm.log
+> /var/log/php8.2-fpm.log
+> /var/log/php8.3-fpm.log
+> /var/log/php8.4-fpm.log
 > /var/log/user.log
 > /root/.ssh/authorized_keys
 rm -f /etc/cloud/cloud.cfg.d/100-clp.cfg
