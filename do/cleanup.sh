@@ -29,7 +29,7 @@
 > /var/log/ubuntu-advantage-timer.log
 > /var/log/ufw.log
 > /var/log/cloud-init.log
-> /root/.bash_history
+rm -f /root/.bash_history
 rm /root/.ssh/authorized_*
 
 apt-get -y purge droplet-agent
