@@ -37,5 +37,5 @@ git clone https://github.com/digitalocean/marketplace-partners.git /tmp/marketpl
 7. Delete marketplace directory
 
 ```
-rm -rf /tmp/*
+rm -rf /tmp/* && rm -f /root/.bash_history
 ```
