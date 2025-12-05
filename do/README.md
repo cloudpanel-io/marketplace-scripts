@@ -22,16 +22,16 @@ curl -sSL https://raw.githubusercontent.com/cloudpanel-io/marketplace-scripts/ma
 git clone https://github.com/digitalocean/marketplace-partners.git /tmp/marketplace-partners && chmod -R 700 /tmp/marketplace-partners
 ```
 
-5. Execute script: img_check.sh:
-
-```
-/tmp/marketplace-partners/scripts/99-img-check.sh
-```
-
-6. Execute script: cleanup.sh:
+5. Execute script: cleanup.sh:
 
 ```
 /tmp/marketplace-partners/scripts/90-cleanup.sh
+```
+
+6Execute script: img_check.sh:
+
+```
+/tmp/marketplace-partners/scripts/99-img-check.sh
 ```
 
 7. Delete marketplace directory

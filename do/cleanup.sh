@@ -30,6 +30,7 @@
 > /var/log/ubuntu-advantage-timer.log
 > /var/log/ufw.log
 > /var/log/cloud-init.log
+rm -rf /opt/digitalocean
 rm -f /root/.bash_history
 rm /root/.ssh/authorized_*
 
