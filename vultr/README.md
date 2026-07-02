@@ -1,4 +1,4 @@
-Ubuntu 24.04 and Debian 12:
+Ubuntu 26.04 and Debian 12:
 
 1. Remove MySQL
 
