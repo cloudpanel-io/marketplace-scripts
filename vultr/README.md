@@ -1,4 +1,4 @@
-Ubuntu 26.04 and Debian 12:
+Ubuntu 26.04 and Debian 13:
 
 1. Remove MySQL
 
@@ -10,7 +10,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr ba
 
 3. Restart MySQL
 
-/etc/init.d/mysql restart
+systemctl restart mysql
 
 4. Run script:
 
